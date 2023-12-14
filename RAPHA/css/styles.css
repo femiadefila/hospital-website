@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:#2b3c67;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+   color:#6ecca5;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold; 
+}
+nav ul {
+    float: right;
+    text-align: right;
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 12px;
+}
+nav ul li{
+    display: inline;
+    float: left;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+nav ul a{
+    color: white;
+    font-size: 1rem;
+}
+
+
+.load{
+    animation: slide 2s;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 40s infinite;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgb(76 73 73 / 60%)
+}
+.principal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+.principal h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #6ecca5;
+}
+
+@keyframes slide {
+    0%{
+    background: url(../images/physiotherapy-5624921_1920.jpg);
+    }
+    20%{
+        background-image: url(../images/physiotherapy-5624921_1920.jpg);
+    }
+    20.01%{
+        background-image: url(../images/gym-5977600_1920.jpg);
+    }
+    40%{
+        background-image: url(../images/gym-5977600_1920.jpg);
+    }
+    40.01%{
+        background-image: url(../images/joyce-mccown-IG96K_HiDk0-unsplash.jpg);
+    }
+    60%{
+        background-image: url(../images/joyce-mccown-IG96K_HiDk0-unsplash.jpg);
+    }
+    60.01%{
+        background-image: url(../images/female-physiotherapy-adjusting-walking-brace-patient-s-leg-wheel-chair-110723398.jpg);
+    }
+    100%{
+        background-image: url(../images/female-physiotherapy-adjusting-walking-brace-patient-s-leg-wheel-chair-110723398.jpg);
+    }
+}
+.details{
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+.why{
+    font-size: 26px;
+}
+.icons{
+    color: #6ecca5;
+}
+.fly{
+    width: 400px;
+    clip-path: circle();
+}
+.orthotic{
+    width: 520px;
+    clip-path: circle();
+}
+.content2{
+    background-color: whitesmoke;
+}
+.izzi{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.money{
+    height: 80vh;
+}
+.down{
+    font-size: 19px;
+    background-color:#2b3c67;
+    padding: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.buttin{
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:1px solid;
+    background-color: #6ecca5;
+    border-radius: 2px;
+    color: #fff;
+    width: 350px;
+    height: 45px;
+
+}
+.freeze{
+    color: #2b3c67;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+.why{
+    color:#6ecca5;
+}
+.end{
+    background-color: #2b3c67;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:17px;
+}
+.top{
+    width: 270px;
+    clip-path: circle();
+    float: left;
+}
+.gun{
+    font-size: 30px;
+    color: white;
+}
+.animal h4{
+    font-weight: 900;
+    letter-spacing: .10em;
+    color: #6ecca5;
+}
+.animal h6{
+    font-size: 13px;
+    font-weight: 700;
+    opacity: .4;
+    letter-spacing: .10em;
+}
+.icons{
+    color: white;
+    font-size: 30px;
+}
+.animal h5{
+    font-weight: 700;
+    color: #6ecca5;
+}
+
+.animal ul{
+    list-style-type: none;
+}

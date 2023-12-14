@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:#2b3c67 ;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color:#6ecca5 ;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    text-align: right;
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 12px;
+}
+nav ul li{
+    display: inline;
+    float: left;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+nav ul a{
+    color: white;
+    font-size: 1rem;
+}
+
+#page{
+    background: url(../images/Hero_New-copy-1.jpg) no-repeat;
+    height: 80vh;
+}
+
+.pain{
+    padding-top: 100px;
+}
+.pain h6{
+    color: #6ecca5;
+    font-size: 13px;
+    font-weight: bold;
+}
+.pain h1{
+    color:#2b3c67 ;
+    font-size: 60px;
+}
+.speed{
+ background-image: url(../images/about-07.png);
+ background-position: center;
+ height: 45vh;
+ width: 49vh;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+.container .deserve{
+    background-color:#F6F7FB ;
+}
+
+.part{
+ background-image: url(../images/about-08.png);
+ background-position: center;
+ height: 45vh;
+ width: 49vh;
+ background-repeat: no-repeat;
+ background-size: contain;
+
+}
+
+.sucks{
+ background-image: url(../images/Icons-06.png);
+ background-position: center;
+ height: 45vh;
+ width: 49vh;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+.deserve h5{
+    color:#2b3c67 ;
+    font-weight: bold;
+}
+
+.deserve p{
+    color: rgba(0,0,0,0.7);
+}
+
+.naco{
+    text-align: center;
+    padding: 40px;
+    color:#6ecca5;
+}
+
+.right{
+    width: 110px;
+    height: 150px;
+    display: block;
+    border-radius: 70%;
+    object-fit: center;
+    margin: auto;
+}
+.naco h6{
+    font-size: small;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.naco p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#817f7f;
+    font-size: 16px;
+}
+
+.flip-card{
+    width: 350px;
+    height: 250px
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    padding: 20px;
+  }
+
+  .flip-card-front h4 {
+    font-weight: 700;
+    font-size: calc(var(--font-sm) + 1.1px);
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #6ecca5;
+
+  }
+
+  .flip-card-front p{
+    font-size: calc(var(--font-sm) - 1.1px);
+    line-height: 1.8;
+    color: rgb(0, 0, 0)3
+
+  }
+
+  .flip-card-front {
+    background-color:#2b3c67 ;
+    color:#6ecca5 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+  }
+
+  .flip-card-back {
+    background-color:#6ecca5 ;
+    transform: rotateY(180deg);
+  }  
+  .btn{
+      margin: 90px;
+      font-weight: 500;
+      background-color:#2b3c67 ;
+      color: white;
+  }
+
+  .btn:hover{
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);;
+  }
+
+
+.end{
+    margin-top: 50px;
+    background-color:#2b3c67;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:17px;
+}
+.top{
+    width: 270px;
+    clip-path: circle();
+    float: left;
+}
+.gun{
+    font-size: 30px;
+    color: white;
+}
+.animal h4{
+    font-weight: 900;
+    letter-spacing: .10em;
+    color:#6ecca5 ;
+}
+.animal h6{
+    font-size: 13px;
+    font-weight: 700;
+    opacity: .4;
+    letter-spacing: .10em;
+}
+.icons{
+    color: white;
+    font-size: 30px;
+}
+.animal h5{
+    font-weight: 700;
+    color: #6ecca5;
+}
+
+.animal ul{
+    list-style-type: none;
+}
