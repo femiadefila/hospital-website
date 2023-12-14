@@ -141,7 +141,7 @@
     background-color: whitesmoke;
 }
 .heart{
-    background: url(../images/properties.jpg);
+    /* background: url(../images/properties.jpg); */
     height: 45vh;
     
 }
